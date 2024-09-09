@@ -1,0 +1,52 @@
+body {
+    margin:0;
+    background-color: darkgrey;
+}
+
+#tytul {
+    font-size: 42px;
+    color: gold;;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#wpisz {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+#drugi {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+#przycisk {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#ciag, #fi {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.odd, .even {
+    color: brown;
+}
+
+.ratio {
+    color: gold;
+}
+
+.rozowy {
+    color: pink;
+}
+.zielony {
+    color: green;
+}
+.niebieski {
+    color: blue;
+}

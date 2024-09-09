@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zloty Ciag</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="tytul">Generator złotych ciągów</div>
+    <div id="wpisz">
+        <label>
+            n<sub>01</sub> = <input type="number" id="a" value="12"></input> 
+        </label>
+        <label>
+            n<sub>02</sub> = <input type="number" id="b" value="5"></input>
+        </label>
+        <label>
+            Ile wyrazów złotego ciągu ?  <input type="number" id="ile" value="20"></input>
+        </label>  
+    </div>
+        
+    <div id="drugi">
+        Odd 
+            <input type="button" name="np" value="pink"></input>
+            <input type="button" name="np" value="green"></input>
+            <input type="button" name="np" value="blue"></input>
+
+        Even 
+            <input type="button" class="pa" value="pink"></input>
+            <input type="button" class="pa" value="green"></input>
+            <input type="button" class="pa" value="blue"></input>
+
+        &Phi; 
+            <input type="button" class="phi" value="pink"></input>
+            <input type="button" class="phi" value="green"></input>
+            <input type="button" class="phi" value="blue"></input>
+
+
+        All 
+            <input type="button" class="all" value="pink"></input>
+            <input type="button" class="all" value="green"></input>
+            <input type="button" class="all" value="blue"></input>
+    </div>
+
+    <div id="przycisk">
+
+        <input type="button" id="generujciag" value="genruj ciag"></input>
+        <input id="blokada" type="button" value="zablokuj"></input>
+
+    </div>
+
+    <div>
+        <div id="ciag"></div>
+        <div id="fi"></div>
+    </div>
+    
+    <script src="ciag.js"></script>
+</body>
+</html>
